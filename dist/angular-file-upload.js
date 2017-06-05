@@ -795,7 +795,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	            if (item._form) item._form.replaceWith(input); // remove old form
 	            item._form = form; // save link to new form
-	
+				console.log(JSON.stringify(item));
 	            input.prop('name', item.alias);
 	
 	            forEach(item.formData, function (obj) {
